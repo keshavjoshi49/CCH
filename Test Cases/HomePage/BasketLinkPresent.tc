@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BasketLinkPresent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db9e254e-6964-439a-aaba-32e1b8ba4538</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44a5ee41-b935-4b33-8f76-64c866192e83</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
