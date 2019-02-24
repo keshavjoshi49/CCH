@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MenuLinksPresent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aadf1293-c08a-4e34-a749-41eaf0c31985</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>845a6ea0-5cc2-4cce-94f7-8d1c652caa09</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

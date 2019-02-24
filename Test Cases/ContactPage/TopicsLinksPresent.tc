@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TopicsLinksPresent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a328ac54-abe6-42d1-a317-f5401741b537</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bce09437-4266-4806-b368-40c21986a728</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

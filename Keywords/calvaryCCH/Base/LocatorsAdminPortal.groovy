@@ -18,34 +18,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-public class BasePage {
+public class LocatorsAdminPortal {
 
-	public static def lauchApplication (String url) {
+	//Login Page elements
+	static def emailAddress(){findTestObject('AdminPortal/LoginPage/input_email_address')}
+	static def password(){findTestObject('AdminPortal/LoginPage/input_password')}
+	static def submit_button(){findTestObject('AdminPortal/LoginPage/submit_button')}
 
-		WebUI.openBrowser('')
-		WebUI.maximizeWindow()
-		WebUI.deleteAllCookies()
-		WebUI.navigateToUrl(url)
-	}
+	//********** Home Page elements start ******************
 
-	public static def clearText(TestObject object) {
-		WebUI.clearText(object)
-	}
+	static def page_intros_link(){findTestObject('AdminPortal/HomePage/link_page_intros')}
+	static def logout_link(){findTestObject('AdminPortal/HomePage/link_logout')}
 
-	public static def setText(TestObject object,String value) {
-		WebUI.setText(object,value)
-	}
+	//Edit Link of California Issue
+	static def edit_california_issues_page(){findTestObject('AdminPortal/PageIntros/California_issue_page')}
 
-	public static def click(TestObject object) {
-		WebUI.click(object)
-	}
-
-	public static def elementPreset(TestObject object){
-		WebUI.verifyElementPresent(object, 5)
-	}
-	public static def waitForElement(TestObject object){
-		WebUI.waitForElementPresent(object, 5)
-	}
+	//********** Home Page elements End ******************
+	
+	// California issue edit mode
+	static def save_california_issues_page(){findTestObject('AdminPortal/CaliforniaIssue/Save')}
+	static def Content_CI(){findTestObject('AdminPortal/CaliforniaIssue/Content_Input')}
 }
-
-

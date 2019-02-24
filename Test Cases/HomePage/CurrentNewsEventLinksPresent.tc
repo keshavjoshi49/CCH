@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CurrentNewsEventLinksPresent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbd36f65-5899-4885-a0e1-d3895789f337</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2211ea7f-84ff-4a35-bc6e-e42cc9b046ed</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

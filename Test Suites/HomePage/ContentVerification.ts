@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>b1a02942-7a7b-4fbb-bc32-342ff5b2725d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HomePage/MenuLinksPresent</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/urls</testDataId>
+         <testDataId>Data Files/MainSiteUrls</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>b1b4ae39-3e11-46ca-b4f8-be595ab0da07</testDataLinkId>
@@ -34,7 +34,7 @@
    <testCaseLink>
       <guid>1e988419-03ac-4788-a2dd-82d8b4ab203d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HomePage/ArticleLinksPresent</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -43,7 +43,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/urls</testDataId>
+         <testDataId>Data Files/MainSiteUrls</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>d2eb64d4-1546-4128-8a00-c63a11693f2a</testDataLinkId>
@@ -55,7 +55,7 @@
    <testCaseLink>
       <guid>2e247baf-1ab9-4faa-9220-548c6f2efcf0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HomePage/BasketLinkPresent</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -64,13 +64,103 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/urls</testDataId>
+         <testDataId>Data Files/MainSiteUrls</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>6e6c9440-8aeb-4d46-80fd-d6ff1c120ab7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>url</value>
          <variableId>44a5ee41-b935-4b33-8f76-64c866192e83</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a42f24d-5178-4071-ad7b-40e5512a5731</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/HomePage/ImageLinksPresent</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b48faee6-00c3-4e00-bc29-a329e3798a6c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/MainSiteUrls</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b48faee6-00c3-4e00-bc29-a329e3798a6c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>d9c8853c-c863-4cc6-8a04-47a746fc6c1b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84a50981-997f-4846-95be-94e2de827dad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/HomePage/CurrentNewsEventLinksPresent</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8fdc39e1-69d4-4cfc-991a-7638314129be</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/MainSiteUrls</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8fdc39e1-69d4-4cfc-991a-7638314129be</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>2211ea7f-84ff-4a35-bc6e-e42cc9b046ed</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ba637f7-7555-4201-b0b0-e37592b58120</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HomePage/CaliforniaIssueTextValidation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>16057a63-ae9e-4c72-aa5a-ed218131043b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CaliforniaIssue</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>37a1ab77-512c-484f-9ba0-1b89445ae9ce</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AdminSiteData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>37a1ab77-512c-484f-9ba0-1b89445ae9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>adminUrl</value>
+         <variableId>371dcefa-256f-4625-9d9f-a05ebedd6153</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>37a1ab77-512c-484f-9ba0-1b89445ae9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>e27d7eb6-b5d0-4bb1-925c-9ff4a1fa183d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>37a1ab77-512c-484f-9ba0-1b89445ae9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>537094a4-81f8-4434-8994-1c3eb2350746</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>16057a63-ae9e-4c72-aa5a-ed218131043b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ContentText</value>
+         <variableId>ce200ac2-218a-4aaa-9593-93670ea2f3b8</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

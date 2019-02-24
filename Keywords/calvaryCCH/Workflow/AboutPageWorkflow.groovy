@@ -1,4 +1,4 @@
-package calvaryCCH.Pages
+package calvaryCCH.Workflow
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -15,11 +15,21 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import calvaryCCH.Base.BasePage
+
 import calvaryCCH.Base.LocatorsMainSite as Locators
+import calvaryCCH.Base.BasePage
+import calvaryCCH.Workflow.CommonPageWorkflow as menu
 
 import internal.GlobalVariable
 
-public class HomePage {
-}
+public class AboutPageWorkflow {
 
+	public static def ClickAboutPage(){
+		BasePage.click(Locators.about_link())
+	}
+	public static def verifyMenuSideNavigation() {
+		menu.menuLinkClickable()
+		menu.topicLinkClickable()
+		menu.InformationLinkClickable()
+	}
+}

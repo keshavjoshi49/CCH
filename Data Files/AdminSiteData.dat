@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>urls</name>
+   <name>AdminSiteData</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>9b859342-ac1c-49ee-916d-cf8042073e34</dataFileGUID>
+   <dataFileGUID>dcac8369-5185-4308-8ad3-a8164d8b4245</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>https%3A%2F%2Fdev54.calvarycch.org%2F</data>
+   <data>https%3A%2F%2Fdev54.calvarycch.org%2Fadmin_panel%2Findex.php nick%40exodussw.com password123</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>url</name>
+      <name>adminUrl</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>username</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>password</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

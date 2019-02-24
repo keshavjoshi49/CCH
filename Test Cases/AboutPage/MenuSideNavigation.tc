@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MenuSideNavigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31dcee3a-e649-4598-bc6b-ef84e6e8beaf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85f2f171-8047-4b7a-b0b5-a16aa8c93e7d</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

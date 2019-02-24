@@ -1,4 +1,4 @@
-package calvaryCCH.Pages
+package adminPortal.Workflow
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -15,11 +15,27 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import calvaryCCH.Base.BasePage
-import calvaryCCH.Base.LocatorsMainSite as Locators
-
 import internal.GlobalVariable
 
-public class HomePage {
-}
+import adminPortal.Pages.LoginPage as login
+import calvaryCCH.Base.BasePage
+import calvaryCCH.Base.LocatorsAdminPortal as Locators
+import adminPortal.Pages.Homepage as home
+import adminPortal.Pages.CaliforniaIssuePage as ci
 
+public class ContentCaliforniaIssue {
+	
+	public static def loginToAdmin(String username, String password){
+		login.loginToApplication(username, password)
+	}
+
+	public static def saveContentCaliforniaIssue(String contentText){
+		home.ClickPageIntros()
+		ci.editCaliforniaIssue()
+		WebUI.switchToFrame(Locators.Content_CI(), 0)
+		BasePage.clearText(Locators.Content_CI())
+		BasePage.setText(Locators.Content_CI(), contentText)
+		ci.saveCaliforniaIssue()
+		
+	}
+}
