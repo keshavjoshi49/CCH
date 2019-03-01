@@ -34,8 +34,14 @@ public class LocatorsAdminPortal {
 	static def edit_california_issues_page(){findTestObject('AdminPortal/PageIntros/California_issue_page')}
 
 	//********** Home Page elements End ******************
-	
+
 	// California issue edit mode
-	static def save_california_issues_page(){findTestObject('AdminPortal/CaliforniaIssue/Save')}
-	static def Content_CI(){findTestObject('AdminPortal/CaliforniaIssue/Content_Input')}
+	static def switch_to_frame(){findTestObject('AdminPortal/PageIntros/CaliforniaIssue/frame')}
+	static def save_california_issues_page(){findTestObject('AdminPortal/PageIntros/CaliforniaIssue/Save')}
+	static def Content_CI(){findTestObject('AdminPortal/PageIntros/CaliforniaIssue/Content_Input')}
 }
+
+
+
+
+

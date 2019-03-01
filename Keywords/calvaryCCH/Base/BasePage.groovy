@@ -35,6 +35,9 @@ public class BasePage {
 	public static def setText(TestObject object,String value) {
 		WebUI.setText(object,value)
 	}
+	public static def getText(TestObject object) {
+		WebUI.getText(object)
+	}
 
 	public static def click(TestObject object) {
 		WebUI.click(object)
@@ -45,6 +48,9 @@ public class BasePage {
 	}
 	public static def waitForElement(TestObject object){
 		WebUI.waitForElementPresent(object, 5)
+	}
+	public static def verifyTextPresent(TestObject object,String contentText){
+		
 	}
 }
 

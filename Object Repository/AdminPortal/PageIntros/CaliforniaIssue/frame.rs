@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Content_Input</name>
+   <name>frame</name>
    <tag></tag>
-   <elementGuidId>5aefd37b-baa1-4f4e-a489-e6eb1250ba27</elementGuidId>
+   <elementGuidId>19e6cd9d-6a03-428d-af53-c8c9e3f496b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body[@id='tinymce']</value>
+         <value>//iframe[@id='descr_ifr']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

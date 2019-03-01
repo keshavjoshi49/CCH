@@ -19,23 +19,30 @@ import internal.GlobalVariable
 
 import adminPortal.Pages.LoginPage as login
 import calvaryCCH.Base.BasePage
-import calvaryCCH.Base.LocatorsAdminPortal as Locators
+import calvaryCCH.Base.LocatorsAdminPortal as LocatorsA
+import calvaryCCH.Base.LocatorsMainSite as LocatorsM
+import calvaryCCH.Pages.HomePage as mainHome
 import adminPortal.Pages.Homepage as home
 import adminPortal.Pages.CaliforniaIssuePage as ci
 
-public class ContentCaliforniaIssue {
-	
+public class HomePageWorkflow {
+
 	public static def loginToAdmin(String username, String password){
 		login.loginToApplication(username, password)
 	}
-
 	public static def saveContentCaliforniaIssue(String contentText){
 		home.ClickPageIntros()
 		ci.editCaliforniaIssue()
-		WebUI.switchToFrame(Locators.Content_CI(), 0)
-		BasePage.clearText(Locators.Content_CI())
-		BasePage.setText(Locators.Content_CI(), contentText)
+
+		WebUI.switchToFrame(LocatorsA.switch_to_frame(),5)
+		BasePage.clearText(LocatorsA.Content_CI())
+		WebUI.focus(LocatorsA.Content_CI())
+		BasePage.setText(LocatorsA.Content_CI(), contentText)
+		WebUI.switchToDefaultContent()
 		ci.saveCaliforniaIssue()
-		
+	}
+	public static def verifyContentCaliforniaIssue(String contentText){
+
+		WebUI.verifyElementText(LocatorsM.california_issues_text(),contentText)
 	}
 }

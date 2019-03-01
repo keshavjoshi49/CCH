@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Content_Input</name>
+   <name>California_Issues_text</name>
    <tag></tag>
-   <elementGuidId>5aefd37b-baa1-4f4e-a489-e6eb1250ba27</elementGuidId>
+   <elementGuidId>bc83f440-05b1-42f4-833c-7c05ebae3970</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body[@id='tinymce']</value>
+         <value>//div[@id='box_1_b']//font[@class='h2-home-text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,27 +17,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://dev54.calvarycch.org/about</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>About</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ThemeOfficeMainItemText</value>
+      <value>menu</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Logout</value>
+      <value>About</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;myMenuID&quot;)/table[@class=&quot;ThemeOfficeMenu&quot;]/tbody[1]/tr[1]/td[@class=&quot;ThemeOfficeMainItem&quot;]/span[@class=&quot;ThemeOfficeMainItemText&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;content&quot;]/div[@class=&quot;h-content&quot;]/div[@class=&quot;h-top-right3&quot;]/a[@class=&quot;menu&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

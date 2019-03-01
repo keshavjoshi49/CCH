@@ -4,33 +4,40 @@
    <name>CaliforniaIssueTextValidation</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>903761b0-3080-40c5-bba4-4b12dc796278</testCaseGuid>
+   <testCaseGuid>9cdcdcfe-f7c5-48ee-b37c-edf132c4e72e</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>371dcefa-256f-4625-9d9f-a05ebedd6153</id>
+      <id>ac0327ff-ec92-4a84-a2fb-21768cfe8a70</id>
       <masked>false</masked>
-      <name>adminurl</name>
+      <name>adminUrl</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e27d7eb6-b5d0-4bb1-925c-9ff4a1fa183d</id>
+      <id>2971affd-1f0c-402c-b205-cd3f4d80fa53</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>537094a4-81f8-4434-8994-1c3eb2350746</id>
+      <id>8ca28cc3-cae3-4504-9f95-4774058ec58d</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ce200ac2-218a-4aaa-9593-93670ea2f3b8</id>
+      <id>a4d71565-f899-415f-a588-dfcfb5716acb</id>
       <masked>false</masked>
       <name>contentText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d33c37a0-5fe2-4a4f-b46d-7465be4707fb</id>
+      <masked>false</masked>
+      <name>mainUrl</name>
    </variable>
 </TestCaseEntity>

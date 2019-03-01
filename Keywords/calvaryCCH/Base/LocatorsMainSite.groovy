@@ -56,6 +56,9 @@ public class LocatorsMainSite {
 	static def parental_rights_link(){findTestObject('MainSite/HomePage/Parental_Rights_Link')}
 	static def sanctity_life_link(){findTestObject('MainSite/HomePage/Sanctity_Life_Link')}
 
+	//Article links text
+	static def california_issues_text(){findTestObject('MainSite/HomePage/California_Issues_text')}
+	
 	//Image Links
 
 	static def practicle_tools_image(){findTestObject('MainSite/HomePage/Practicle_Tools_Image')}
