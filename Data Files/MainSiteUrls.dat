@@ -11,7 +11,7 @@
    <data>https%3A%2F%2Fdev54.calvarycch.org%2F</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>url</name>
+      <name>mainUrl</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

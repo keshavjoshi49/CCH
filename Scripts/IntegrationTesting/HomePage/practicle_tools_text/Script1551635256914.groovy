@@ -13,19 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import calvaryCCH.Base.BasePage
-import adminPortal.Workflow.HomePageWorkflow as home
+import integrationTest.Workflow.HomePageWorkflow as home
 
 //Login to admin portal
 BasePage.lauchApplication(adminUrl)
 home.loginToAdmin(username, password)
 
-// Set text in admin portal
-home.saveContentCaliforniaIssue(contentText)
+
+// Set text in admin portal for marriage and family
+home.saveContentParentalRights(contentText)
 
 //Open Main site
 BasePage.lauchApplication(mainUrl)
 //Verify the text saved in admin portal
-home.verifyContentCaliforniaIssue(contentText)
-
-
-
+home.verifyContentParentalRights(contentText)

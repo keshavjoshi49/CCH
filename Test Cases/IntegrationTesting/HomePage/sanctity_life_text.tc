@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sanctity_life_text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89c8c7f7-3326-448d-b164-b1c1eed42d7f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54fe9f0d-05e6-4dbe-8675-7e55a92d0271</id>
+      <masked>false</masked>
+      <name>adminUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05c537fb-8128-4ac0-9323-ebc16c343cf8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ae7b287-bea6-4c33-9977-2e239affffd0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>872e97f9-5892-4695-a472-f67b3a704ca9</id>
+      <masked>false</masked>
+      <name>contentText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26b2ba3f-bba0-4f8c-865f-709ce9312895</id>
+      <masked>false</masked>
+      <name>mainUrl</name>
+   </variable>
+</TestCaseEntity>

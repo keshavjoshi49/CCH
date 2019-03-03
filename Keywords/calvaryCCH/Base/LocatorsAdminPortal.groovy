@@ -29,16 +29,21 @@ public class LocatorsAdminPortal {
 
 	static def page_intros_link(){findTestObject('AdminPortal/HomePage/link_page_intros')}
 	static def logout_link(){findTestObject('AdminPortal/HomePage/link_logout')}
-
-	//Edit Link of California Issue
-	static def edit_california_issues_page(){findTestObject('AdminPortal/PageIntros/California_issue_page')}
-
 	//********** Home Page elements End ******************
 
+	//*************PAGE INTROS elements starts ***************
+	//Edit Link of all pages
+	static def edit_california_issues_page(){findTestObject('AdminPortal/PageIntros/California_issue_page')}
+	static def edit_Marriage_family_page(){findTestObject('AdminPortal/PageIntros/marriage_family_page')}
+	static def edit_Parental_rights_link(){findTestObject('AdminPortal/PageIntros/parental_rights_page')}
+	static def edit_Sanctity_life_link(){findTestObject('AdminPortal/PageIntros/sanctity_life_page')}
+
+	//*************PAGE INTROS elements ends ***************
+
 	// California issue edit mode
-	static def switch_to_frame(){findTestObject('AdminPortal/PageIntros/CaliforniaIssue/frame')}
-	static def save_california_issues_page(){findTestObject('AdminPortal/PageIntros/CaliforniaIssue/Save')}
-	static def Content_CI(){findTestObject('AdminPortal/PageIntros/CaliforniaIssue/Content_Input')}
+	static def switch_to_frame(){findTestObject('AdminPortal/PageIntros/SitePages/frame')}
+	static def save_california_issues_page(){findTestObject('AdminPortal/PageIntros/SitePages/Save')}
+	static def Content_CI(){findTestObject('AdminPortal/PageIntros/SitePages/Content_Input')}
 }
 
 

@@ -116,13 +116,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>71bd421a-b189-48a4-922d-56e104793b84</guid>
+      <guid>b98b8120-cd1f-4e22-8e70-40813b62f59d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/HomePage/CaliforniaIssueTextValidation</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/IntegrationTesting/HomePage/CaliforniaIssue_text</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>373084b6-b469-4d7d-a025-bfa9d5483e2d</id>
+         <id>740407cb-485d-4930-999a-501a1afa94b2</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -131,7 +131,7 @@
       </testDataLink>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0456a2eb-c4d8-4f8c-8f41-d3cc3ef86de3</id>
+         <id>cae69991-0555-41fd-801f-04b8bce7b4b9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -140,7 +140,7 @@
       </testDataLink>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>72c34c2f-fd14-447c-ac73-1391e668880e</id>
+         <id>72100fd2-f389-45a4-b24b-ac0a9b943462</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -148,34 +148,97 @@
          <testDataId>Data Files/MainSiteUrls</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>373084b6-b469-4d7d-a025-bfa9d5483e2d</testDataLinkId>
+         <testDataLinkId>740407cb-485d-4930-999a-501a1afa94b2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>adminUrl</value>
-         <variableId>ac0327ff-ec92-4a84-a2fb-21768cfe8a70</variableId>
+         <variableId>b3e3a7e0-7384-47c4-884a-c84adf8cbfa2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>373084b6-b469-4d7d-a025-bfa9d5483e2d</testDataLinkId>
+         <testDataLinkId>740407cb-485d-4930-999a-501a1afa94b2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>2971affd-1f0c-402c-b205-cd3f4d80fa53</variableId>
+         <variableId>1d5b7f62-1d11-434c-9189-6ffe527d8a9b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>373084b6-b469-4d7d-a025-bfa9d5483e2d</testDataLinkId>
+         <testDataLinkId>740407cb-485d-4930-999a-501a1afa94b2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>8ca28cc3-cae3-4504-9f95-4774058ec58d</variableId>
+         <variableId>4822f256-fc5b-4701-9566-7285670dd940</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0456a2eb-c4d8-4f8c-8f41-d3cc3ef86de3</testDataLinkId>
+         <testDataLinkId>cae69991-0555-41fd-801f-04b8bce7b4b9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ContentText</value>
-         <variableId>a4d71565-f899-415f-a588-dfcfb5716acb</variableId>
+         <variableId>3314e6e2-0b83-41f0-9f3f-ca7da4792678</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>72c34c2f-fd14-447c-ac73-1391e668880e</testDataLinkId>
+         <testDataLinkId>72100fd2-f389-45a4-b24b-ac0a9b943462</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>url</value>
-         <variableId>d33c37a0-5fe2-4a4f-b46d-7465be4707fb</variableId>
+         <value>mainUrl</value>
+         <variableId>9475b26e-a362-4888-915a-a65711690410</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a30dfbc-838a-4d81-a3b3-f17ff1a4e111</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegrationTesting/HomePage/marriage_family_text</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9274e75a-e26d-4134-baf7-fc9d802c3904</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AdminSiteData</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6b421ba0-9966-4600-9406-cfbf61d60f21</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CaliforniaIssue</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1c022453-f0a6-41ae-a800-e6398d1b1ca1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/MainSiteUrls</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9274e75a-e26d-4134-baf7-fc9d802c3904</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>adminUrl</value>
+         <variableId>443daa09-acc5-46f0-ac9f-d67805beaba1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9274e75a-e26d-4134-baf7-fc9d802c3904</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>01950e5d-efa8-4de8-989a-3f743d7c0a1c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9274e75a-e26d-4134-baf7-fc9d802c3904</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9132732e-de7c-4093-baad-5d2a96ec46ec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6b421ba0-9966-4600-9406-cfbf61d60f21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ContentText</value>
+         <variableId>3973f538-48b5-4cbd-bf67-38f04b1eb0c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1c022453-f0a6-41ae-a800-e6398d1b1ca1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mainUrl</value>
+         <variableId>d9b6cd10-9f06-4fc4-8217-94b7b55a36f1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

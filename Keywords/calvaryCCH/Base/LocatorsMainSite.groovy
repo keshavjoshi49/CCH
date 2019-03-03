@@ -58,6 +58,9 @@ public class LocatorsMainSite {
 
 	//Article links text
 	static def california_issues_text(){findTestObject('MainSite/HomePage/California_Issues_text')}
+	static def marriage_family_text(){findTestObject('MainSite/HomePage/Marriage_Family_text')}
+	static def practicle_tools_text(){findTestObject('MainSite/HomePage/Practicle_Tools_text')}
+	static def sanctity_life_text(){findTestObject('MainSite/HomePage/Sanctity_Life_text')}
 	
 	//Image Links
 

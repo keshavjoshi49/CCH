@@ -18,19 +18,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import calvaryCCH.Base.BasePage
 import calvaryCCH.Base.LocatorsAdminPortal as Locators
-import adminPortal.Pages.PageIntrosPage as page
 import internal.GlobalVariable
 
-
-
-public class CaliforniaIssuePage {
-
-	public static def clickEditCaliforniaIssueLink(){
-		page.editCaliforniaIssue()
-		BasePage.waitForElement(Locators.save_california_issues_page())
+public class PageIntrosPage {
+	public static def editCaliforniaIssue(){
+		BasePage.click(Locators.edit_california_issues_page())
 	}
-	public static def saveCaliforniaIssue(){
-		BasePage.click(Locators.save_california_issues_page())
-		BasePage.waitForElement(Locators.edit_california_issues_page())
+	
+	public static def editMarriageFamily(){
+		BasePage.click(Locators.edit_Marriage_family_page())
+	}
+	
+	public static def editParentalRights(){
+		BasePage.click(Locators.edit_Parental_rights_link())
+	}
+	
+	public static def editSanctityLife(){
+		BasePage.click(Locators.edit_Sanctity_life_link())
 	}
 }

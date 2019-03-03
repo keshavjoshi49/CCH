@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>practicle_tools_text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfc72402-b76f-48d7-bc6a-1cc9fb0a866b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1f508064-32e7-4308-8f06-a8dc51508eab</id>
+      <masked>false</masked>
+      <name>adminUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5cf88a2-1c6d-45ef-b77f-93f7041ecdd6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0661f99-0037-411a-8850-02c28b054393</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79328b2a-05fa-4f22-ab68-c69646476097</id>
+      <masked>false</masked>
+      <name>contentText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9a23c65-7d5a-4735-af2c-ce62152773b1</id>
+      <masked>false</masked>
+      <name>mainUrl</name>
+   </variable>
+</TestCaseEntity>

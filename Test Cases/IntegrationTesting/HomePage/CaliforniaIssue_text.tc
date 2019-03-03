@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CaliforniaIssue_text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>700701d5-2e35-4acf-a4b2-3da5b422eedf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3e3a7e0-7384-47c4-884a-c84adf8cbfa2</id>
+      <masked>false</masked>
+      <name>adminUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d5b7f62-1d11-434c-9189-6ffe527d8a9b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4822f256-fc5b-4701-9566-7285670dd940</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3314e6e2-0b83-41f0-9f3f-ca7da4792678</id>
+      <masked>false</masked>
+      <name>contentText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9475b26e-a362-4888-915a-a65711690410</id>
+      <masked>false</masked>
+      <name>mainUrl</name>
+   </variable>
+</TestCaseEntity>

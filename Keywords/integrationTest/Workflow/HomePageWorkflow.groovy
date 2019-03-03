@@ -1,4 +1,4 @@
-package adminPortal.Workflow
+package integrationTest.Workflow
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -24,16 +24,17 @@ import calvaryCCH.Base.LocatorsMainSite as LocatorsM
 import calvaryCCH.Pages.HomePage as mainHome
 import adminPortal.Pages.Homepage as home
 import adminPortal.Pages.CaliforniaIssuePage as ci
+import adminPortal.Pages.PageIntrosPage as page
 
 public class HomePageWorkflow {
 
 	public static def loginToAdmin(String username, String password){
 		login.loginToApplication(username, password)
 	}
+	// California Issue text validation on home page.
 	public static def saveContentCaliforniaIssue(String contentText){
 		home.ClickPageIntros()
-		ci.editCaliforniaIssue()
-
+		page.editCaliforniaIssue()
 		WebUI.switchToFrame(LocatorsA.switch_to_frame(),5)
 		BasePage.clearText(LocatorsA.Content_CI())
 		WebUI.focus(LocatorsA.Content_CI())
@@ -44,5 +45,56 @@ public class HomePageWorkflow {
 	public static def verifyContentCaliforniaIssue(String contentText){
 
 		WebUI.verifyElementText(LocatorsM.california_issues_text(),contentText)
+	}
+
+	// Marriage family text validation on home page
+	public static def saveContentMarriageFamily(String contentText){
+		home.ClickPageIntros()
+		page.editMarriageFamily()
+		WebUI.switchToFrame(LocatorsA.switch_to_frame(),5)
+		BasePage.clearText(LocatorsA.Content_CI())
+		WebUI.focus(LocatorsA.Content_CI())
+		BasePage.setText(LocatorsA.Content_CI(), contentText)
+		WebUI.switchToDefaultContent()
+		ci.saveCaliforniaIssue()
+	}
+	
+	public static def verifyContentMarriageFamily(String contentText){
+		
+		WebUI.verifyElementText(LocatorsM.marriage_family_text(),contentText)
+	}
+	
+	//Parental rights text validation on home page
+	public static def saveContentParentalRights(String contentText){
+		home.ClickPageIntros()
+		page.editParentalRights()()
+		WebUI.switchToFrame(LocatorsA.switch_to_frame(),5)
+		BasePage.clearText(LocatorsA.Content_CI())
+		WebUI.focus(LocatorsA.Content_CI())
+		BasePage.setText(LocatorsA.Content_CI(), contentText)
+		WebUI.switchToDefaultContent()
+		ci.saveCaliforniaIssue()
+	}
+	
+	public static def verifyContentParentalRights(String contentText){
+		
+		WebUI.verifyElementText(LocatorsM.parental_rights_link(),contentText)
+	}
+	
+	//Sanctity life text validation on home page
+	public static def saveContentSanctityLife(String contentText){
+		home.ClickPageIntros()
+		page.editSanctityLife()
+		WebUI.switchToFrame(LocatorsA.switch_to_frame(),5)
+		BasePage.clearText(LocatorsA.Content_CI())
+		WebUI.focus(LocatorsA.Content_CI())
+		BasePage.setText(LocatorsA.Content_CI(), contentText)
+		WebUI.switchToDefaultContent()
+		ci.saveCaliforniaIssue()
+	}
+	
+	public static def verifyContentSanctityLife(String contentText){
+		
+		WebUI.verifyElementText(LocatorsM.sanctity_life_text(),contentText)
 	}
 }
